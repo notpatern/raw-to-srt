@@ -1,0 +1,8 @@
+{
+  "audio_device": "OBS_Audio",
+  "video_device": "/dev/video2",
+  "video_bitrate": 8000000,
+  "output_ip": "127.0.0.1",
+  "output_port": 9000
+}
+

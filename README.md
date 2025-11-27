@@ -45,7 +45,7 @@ $ systemctl --user restart pipewire
 This change will persist through restarts.
 
 ## OBS
-In OBS go to: ```Settings/Audio/Advanced``` and select your newly created virtual audio device as the ```Monitoring Device```. This reroute designated audio sources to this device.
+In OBS go to: ```Settings/Audio/Advanced``` and select your newly created virtual audio device as the ```Monitoring Device```. This reroutes designated audio sources to this device.
 Once this is done, head back onto your scene and Right Click one of your audio sources and click ```Advanced Audio Properties``` here you will see a dropdown for each audio source that says ```Audio Monitoring```. Set the sources you want to be able to hear in yout stream to ```Monitor Only```.
 Once you're done, start the ```Virtual Camera```.
 

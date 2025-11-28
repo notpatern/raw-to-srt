@@ -1,5 +1,5 @@
 # Raw to SRT
-This project allows it's user to take in raw video feed and stream it to SRT over any network they might want to stream to.
+This project allows its user to take in raw video feed and stream it to SRT over any network they might want to stream to.
 Linux only.
 Uses the Elecard Gstreamer SDK.
 
@@ -46,11 +46,11 @@ This change will persist through restarts.
 
 ## OBS
 In OBS go to: ```Settings/Audio/Advanced``` and select your newly created virtual audio device as the ```Monitoring Device```. This reroutes designated audio sources to this device.
-Once this is done, head back onto your scene and Right Click one of your audio sources and click ```Advanced Audio Properties``` here you will see a dropdown for each audio source that says ```Audio Monitoring```. Set the sources you want to be able to hear in yout stream to ```Monitor Only```.
+Once this is done, head back onto your scene and Right Click one of your audio sources and click ```Advanced Audio Properties``` here you will see a dropdown for each audio source that says ```Audio Monitoring```. Set the sources you want to be able to hear in your stream to ```Monitor Only```.
 Once you're done, start the ```Virtual Camera```.
 
 ## Config
-In the raw-to-srt directory you will find a file named ```config.json```. In this file you will be able to set you virtual camera as the video input, you virtual audio device as the audio input, as well as other settings.
+In the raw-to-srt directory you will find a file named ```config.json```. In this file you will be able to set your virtual camera as the video input, your virtual audio device as the audio input, as well as other settings.
 
 ## Running
 When all of the steps above are done, simply run

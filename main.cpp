@@ -41,7 +41,7 @@ int main() {
         "mux. "
         "empegmux name=mux ! "
         "enwsink transport=4 port=" + std::to_string(outputPort) + " "
-        "interface=" + outputIP + " rc-mode=0";
+        "interface=0.0.0.0 rc-mode=0";
 
     std::cout << "Running command:\n" << command << "\n\n";
 
@@ -55,4 +55,5 @@ int main() {
 
     return 0;
 }
+
 

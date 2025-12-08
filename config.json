@@ -4,7 +4,7 @@
     "video_bitrate": 8000000,
     "output_ip": "127.0.0.1",
     "output_port": 9000,
-    "transport": 1,
+    "transport": 4,
     "gop_length": 2,
     "performance": 0,
     "profile": 100,

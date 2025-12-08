@@ -51,6 +51,24 @@ Once you're done, start the ```Virtual Camera```.
 
 ## Config
 In the raw-to-srt directory you will find a file named ```config.json```. In this file you will be able to set your virtual camera as the video input, your virtual audio device as the audio input, as well as other settings.
+```config.json``` structure and help:
+```json
+{
+    "audio_device": {your audio device},
+    "video_device": {video device},
+    "video_bitrate": 8000000,
+    "output_ip": {ip},
+    "output_port": 9000,
+    "transport": {1: udp, 4: srt},
+    "gop_length": 2,
+    "performance": {lowesr => better quality but more latency. from 0 to 3}
+    "profile": {higher => better quality. from 0 to 100}
+    "entropy_mode": {0: CAVLC, 1: CABAC},
+    "picture_mode": {0: interlaced, 1: progressive},
+    "bitrade_mode": {0: CQP, 1: VBR, 2: CBR},
+    "multicast": true {for udp}
+}
+```
 
 ## Running
 When all of the steps above are done, simply run

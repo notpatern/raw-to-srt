@@ -5,9 +5,9 @@
 #include <nlohmann/json.hpp>
 
 #ifdef _WIN32
-    #define VIDEO_SOURCE "ksvideosrc"
+    #define VIDEO_SOURCE "mfvideosrc"
     #define AUDIO_SOURCE "wasapisrc"
-    #define VIDEO_DEVICE_PARAM "device-index="
+    #define VIDEO_DEVICE_PARAM "device-name="
     #define AUDIO_DEVICE_PARAM "device="
     #define DEFAULT_VIDEO_DEVICE "0"
     #define DEFAULT_AUDIO_DEVICE "default"
